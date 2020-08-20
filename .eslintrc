@@ -31,7 +31,6 @@
         "@typescript-eslint/explicit-function-return-type": 0,
         "functional/no-expression-statement": 0,
         "@typescript-eslint/no-unused-vars": 2,
-        "@typescript-eslint/interface-name-prefix": [2, { "prefixWithI": "always" }],
         "react/no-unescaped-entities": 0,
         "react/display-name": 0,
         "import/no-default-export": 2,
