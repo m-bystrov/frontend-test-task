@@ -1,0 +1,89 @@
+.msg-container {
+    width: 65%;
+    padding: 10px 20px;
+    margin: 30px auto 0 auto;
+    background-color: #ebebeb;
+    border: 3px solid;
+    border-radius: 15px;
+    position: relative;
+}
+
+.msg-border-blue {
+    border-color: #4062bb;
+}
+.msg-border-aqua {
+    border-color: #59c3c3;
+}
+.msg-border-grey {
+    border-color: #5e5e5e;
+}
+.msg-background-light-blue {
+    background-color: #ebebeb;
+}
+.msg-background-light-grey {
+    background-color: #d3d3d3;
+}
+
+.msg-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.msg-delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    color: #f45b69;
+    border-color: #f45b69;
+    border-style: solid;
+    background-color: #eef6fb;
+    cursor: pointer;
+}
+
+.msg-delete-btn:focus {
+    outline: 0px solid #fff;
+}
+
+.msg-content {
+    margin: 10px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msg-content-row {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin: 2px 0;
+}
+
+.msg-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.msg-service-btn {
+    border-style: solid;
+    padding: 5px;
+    background-color: #eef6fb;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.msg-service-btn:focus {
+    outline: 0px solid #fff;
+}
+
+.msg-amount {
+    background-color: #4062bb;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    cursor: default;
+}
