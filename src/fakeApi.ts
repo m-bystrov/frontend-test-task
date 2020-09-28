@@ -1,6 +1,8 @@
-import { of } from "rxjs";
+import { Observable, of } from "rxjs";
 import { delay } from "rxjs/operators";
 
 import { shuffledMessageList } from "./data-mocks/messages";
+import { ApiMessage } from "./types";
 
-export const getMessagesList = () => of(shuffledMessageList).pipe(delay(500));
+export const getMessagesList = (): Observable<ApiMessage[]> =>
+    of(shuffledMessageList).pipe(delay(100));
